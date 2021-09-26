@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+header{
+	width: 100%;
+	padding: 50px 0px;
+	display: flow-root;
+}
+.nav-bar{
+	width: 100%;
+	float: left;
+
+}
+.logo{
+	width: 25%;
+	float: left;
+
+}
+.menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #c0c0c0;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.menu ul li a:hover{
+	color: black;
+}
+
+
+.main-post{
+	width: 100%;
+	display: flow-root;
+
+}
+
+.details{
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.details h4{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color:#c0c0c0;
+}
+.details h1{
+	font-family: 'Playfair Display', serif;
+	color: #b0b0b0;
+	margin: 20px 0px;
+
+}
+.details p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+
+} 
+span{
+	font-family: 'Playfair Display', serif;
+	color:#c0c0c0;
+
+}
+
+
+.posts{
+	width: 100%;
+	display: flow-root;
+}
+.gellary{
+	width: 100%;
+	float: left;
+	
+}
+.left{
+	width: 46%;
+	float: left;
+}
+.right{
+	width: 46%;
+	float: right;
+}
+.left h4, .right h4{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color:#c0c0c0;
+	margin-top: 20px;
+	font-weight: 300;
+
+}
+.left h1, .right h1{
+	font-family: 'Playfair Display', serif;
+	color: #b0b0b0;
+	margin: 20px 0px;
+
+}
+.left p, .right p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.newsletter{
+	width: 100%;
+	background-color: #f0f0f0;
+	display: flow-root;
+	padding: 60px 0px;
+}
+.subscribe{
+	text-align: center;
+	
+}
+.subscribe h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin: 20px 0px;
+}
+.subscribe input{
+	width: 30%;
+	padding: 15px 0;
+	border: none;
+	border-bottom: 2px solid black;
+	background: transparent;
+}
+.subscribe input::placeholder{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.subscribe input:focus{
+	outline: none;
+}
+
+.last-porject{
+	width: 100%;
+	background-color: #f0f0f0;
+	display: flow-root;
+	padding: 60px 0px;
+}
+.form-part{
+	text-align: center;
+}
+.form-part input{
+	width: 16%;
+	padding: 14px 0;
+	font-size: 20px;
+	
+}
+.form-part input::placeholder{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-align: center;
+
+}
+.footer{
+	background-color: black;
+	display: flow-root;
+	padding: 20px 0px;
+}
+.end-part h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: white;
+	padding-top: 20px;
+}
+.end-part p{
+
+	color: white;
+	margin: 10px 0px;
+}
